@@ -18,11 +18,10 @@ export function Navbar() {
           <Image
             src="/kiko-logo.png"
             alt="كيكو"
-            width={32}
+            width={72}
             height={32}
-            className="h-8 w-8 rounded-lg object-cover"
+            className="h-8 w-auto object-contain"
           />
-          <span className="text-lg font-extrabold tracking-tight text-foreground">كيكو</span>
         </a>
 
         <div dir="rtl" className="hidden items-center gap-1 md:flex">

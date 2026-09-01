@@ -40,11 +40,10 @@ export function Footer() {
               <Image
                 src="/kiko-logo.png"
                 alt="كيكو"
-                width={40}
+                width={90}
                 height={40}
-                className="h-10 w-10 rounded-xl object-cover"
+                className="h-10 w-auto object-contain"
               />
-              <span className="text-xl font-bold text-background">كيكو</span>
             </div>
             <p className="text-sm leading-relaxed text-background/50">
               أذكى طريقة لتأكيد طلبات الدفع عند الاستلام تلقائيًا عبر واتساب.
