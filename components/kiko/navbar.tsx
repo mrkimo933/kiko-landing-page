@@ -12,15 +12,15 @@ export function Navbar() {
     <nav className="fixed inset-x-0 top-6 z-50 px-6">
       <div
         dir="ltr"
-        className="mx-auto flex max-w-3xl items-center justify-between gap-2 rounded-full border border-white/40 bg-white/25 py-2 pl-2 pr-4 shadow-[0_1px_1px_rgba(255,255,255,0.4)_inset,0_8px_30px_rgba(0,0,0,0.08)] backdrop-blur-xl backdrop-saturate-150"
+        className="mx-auto flex max-w-3xl items-center justify-between gap-2 rounded-full border border-white/40 bg-white/25 py-2 pl-5 pr-5 shadow-[0_1px_1px_rgba(255,255,255,0.4)_inset,0_8px_30px_rgba(0,0,0,0.08)] backdrop-blur-xl backdrop-saturate-150"
       >
         <a href="#" className="flex items-center gap-2">
           <Image
             src="/kiko-logo.png"
             alt="كيكو"
-            width={72}
-            height={32}
-            className="h-8 w-auto object-contain"
+            width={100}
+            height={44}
+            className="h-11 w-auto object-contain"
           />
         </a>
 
